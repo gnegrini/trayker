@@ -5,7 +5,7 @@
 Um protótipo de sistema automatizado de coleta de bandejas para restaurantes e lanchonetes. O sistema é dividido em cinco partes: mesas e bandejas adaptadas, um robô coletor, uma interface web que demonstra em tempo real o estado do robô e mesa e uma estação base, responsável pelo processamento entre as demais partes. O vídeo abaixo apresenta uma demonstração do sistema.  
 
 
-<iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/D-C6KesHGfw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="340" src="https://www.youtube-nocookie.com/embed/D-C6KesHGfw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## **Equipe**
 

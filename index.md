@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+# **Trayker**
 
-You can use the [editor on GitHub](https://github.com/gnegrini/trayker/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+![Visão geral do projeto](/imagens/trayker_simple.png?raw=true)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Um protótipo de sistema automatizado de coleta de bandejas para restaurantes e lanchonetes. O sistema é dividido em cinco partes: mesas e bandejas adaptadas, um robô coletor, uma interface web que demonstra em tempo real o estado do robô e mesa e uma estação base, responsável pelo processamento entre as demais partes. [Este vídeo](https://www.youtube.com/watch?v=8xj9Teuq3to) apresenta o sistema em ação.
 
-### Markdown
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/8xj9Teuq3to" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## **Equipe**
+Andreas Gomes
+Douglas Vicente
+Everson de Souza
+Henrique Batochi
+Giovane Negrini
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## **Mesas**
 
-- Bulleted
-- List
+Tendo um [ESP32 da Espressif](https://www.espressif.com/en/products/hardware/esp32/resources) como microcontrolador principal, o código da mesa foi desenvolvido em MicroPython. Ela é responsável por processar dados coletados de diversos sensores e então determinar se a mesa possui uma bandeja abandonada pronta para coleta. Comunicação sem fio com a base é realizada através do protocolo [MQTT](https://mqtt.org/).
 
-1. Numbered
-2. List
+## **Robô Coletor**
 
-**Bold** and _Italic_ and `Code` text
+Possui um [Arduino Mega 2560](https://store.arduino.cc/usa/mega-2560-r3) como microcontroador. Programado em C++, é responsável por guiar o robô até o destino determinado pela estação base, utilizando de um algoritmo seguidor de linha. A comunicação sem fio com a base é realizada através do protocolo Bluetooth.
 
-[Link](url) and ![Image](src)
-```
+## **Interface Web**
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Hospedada pela estação base, rodando em um servidor web criado por [Flask](http://flask.pocoo.org/) em Python. Apresenta informações em tempo real da leitura dos sensores das mesas, qual mesa o robô está atendendo e a fila de coleta de mesas que já estão prontas para coleta. Seus códigos integram HTML, CSS e Javascript.
 
-### Jekyll Themes
+## **Estação Base**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gnegrini/trayker/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Programada em Python, as funcionalidades integradas de Bluetooth e WiFi de uma [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) foram utilizadas para se comunicar com as mesas e o robô.

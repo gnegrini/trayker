@@ -1,10 +1,8 @@
-# **Visão Geral**
-
 
 <p><img align="center" src="imagens/trayker_simple.png?raw=true" /></p>
 
 
-Um protótipo de sistema automatizado de coleta de bandejas para restaurantes e lanchonetes. O sistema é dividido em cinco partes: mesas e bandejas adaptadas, um robô coletor, uma interface web que demonstra em tempo real o estado do robô e mesa e uma estação base, responsável pelo processamento entre as demais partes. O vídeo abaixo apresenta uma demonstração do sistema.
+Um protótipo de sistema automatizado de coleta de bandejas para restaurantes e lanchonetes. O sistema é dividido em cinco partes: mesas e bandejas adaptadas, um robô coletor, uma interface web que demonstra em tempo real o estado do robô e mesa e uma estação base, responsável pelo processamento entre as demais partes. O vídeo abaixo apresenta uma demonstração do sistema.  
 
 
 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/D-C6KesHGfw?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -41,3 +39,6 @@ Hospedada pela estação base, rodando em um servidor web criado por [Flask](htt
 ## **Estação Base**
 
 Programada em Python, as funcionalidades integradas de Bluetooth e WiFi de uma [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) foram utilizadas para se comunicar com as mesas e o robô.
+
+## **Códigos**
+Todos os códigos estão disponibilizados na página do GitHub no branch "final"

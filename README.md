@@ -1,6 +1,8 @@
 # **Trayker**
+**Visão Geral**
 
-![Visão geral do projeto](/imagens/trayker_simple.png?raw=true)
+<p><img align="center" src="imagens/trayker_simple.png?raw=true" /></p>
+
 
 Um protótipo de sistema automatizado de coleta de bandejas para restaurantes e lanchonetes. O sistema é dividido em cinco partes: mesas e bandejas adaptadas, um robô coletor, uma interface web que demonstra em tempo real o estado do robô e mesa e uma estação base, responsável pelo processamento entre as demais partes. O vídeo abaixo apresenta uma demonstração do sistema.
 

@@ -2,12 +2,12 @@
 <p><img align="center" src="imagens/trayker_simple.png?raw=true" /></p>
 
 
-O Trayker é um protótipo para automatizar a de coleta de bandejas em restaurantes e lanchonetes. Ele veio para dar mais limpeza e conforto, retirando as bandejas abandonadas nas mesa. Assim, os clientes não ficam sem onde sentar devido a mesas sujas e também não precisam ficar procurando as lixeiras ao ir embora. 
+O Trayker é um protótipo para automatizar a coleta de bandejas em restaurantes e lanchonetes. Ele veio para dar mais limpeza e conforto, retirando as bandejas abandonadas nas mesa. Assim, os clientes não ficam sem onde sentar devido a mesas sujas e também não precisam ficar procurando as lixeiras ao ir embora. 
 
 O sistema é dividido em cinco partes: mesas e bandejas adaptadas, um robô coletor, uma interface web que demonstra em tempo real o estado do robô e mesa e uma estação base, responsável pelo processamento entre as demais partes. O vídeo abaixo apresenta uma demonstração do sistema.  
 
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/D-C6KesHGfw' frameborder='0' allowfullscreen></iframe></div>
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/D-C6KesHGfw' frameborder='0' allowfullscreen></iframe></div>  
 
 
 ## **Mesas**

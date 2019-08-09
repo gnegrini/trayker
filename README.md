@@ -8,6 +8,26 @@ O sistema é dividido em cinco partes: mesas e bandejas adaptadas, um robô cole
 
 
 <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/D-C6KesHGfw' frameborder='0' allowfullscreen></iframe></div>
+<<<<<<< HEAD
+=======
+
+
+## **Equipe**
+
+**UTFPR- Campus Curitiba**  
+**Engenharia da Computação**  
+**Oficinas de Integração 3**  
+**2019.1**
+
+
+Andreas Gomes  
+Douglas Vicente  
+Everson de Souza  
+Henrique Batochi  
+Giovane Negrini
+
+
+>>>>>>> 93bd16922ac7f12a39c9a8fef0bfb4d4e32d7d43
 
 
 ## **Mesas**

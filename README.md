@@ -9,7 +9,7 @@ O Trayker é um protótipo para automatizar a coleta de bandejas em restaurantes
 O sistema é dividido em cinco partes: mesas e bandejas adaptadas, um robô coletor, uma interface web que demonstra em tempo real o estado do robô e mesa e uma estação base, responsável pelo processamento entre as demais partes. O vídeo a seguir apresenta uma demonstração do sistema: https://www.youtube.com/watch?v=8xj9Teuq3to
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=8xj9Teuq3to"><img src="/imagens/logo.jpg" alt="Visão Geral" width="500" align="middle">
+<a href="https://www.youtube.com/watch?v=8xj9Teuq3to" target="_blank"><img src="/imagens/logo.jpg" alt="Visão Geral" width="500" align="middle">
 </p>
 
 ## **Mesas**
